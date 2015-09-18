@@ -1300,7 +1300,19 @@ ul#desktopMenu li ul li:hover {
 
 /*	Theme Responsive Styles
 	-----------------------	*/
-@media only screen and (max-width: 767px) {
+@media(max-width:768px){
+.show-mobile{
+	display:block !important;
+}
+.hidden-mobile {
+    display: none !important;
+}
+.productBlockContainer .product-container {
+    width: 100%;
+    padding: 0;
+}
+}
+@media only screen and (max-width: 768px) {
 
 html {
 	padding: 0 !important;
@@ -1560,7 +1572,7 @@ footer .col3 {
 }
 
 #message form {text-align: center;}
-
+}
 @media only screen and (max-width: 980px) {
 
 html {
