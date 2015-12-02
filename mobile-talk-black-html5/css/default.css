@@ -1609,3 +1609,21 @@ body {
     #home h2.header-specials {background: none;}
     nav#catNavMenu {display: none; visibility: none;}
 }
+
+@media(max-width: 980px) {
+	.slicknav_menu {
+		display: block;
+	}
+	.top-menu {
+		height: auto;
+	}
+	.top-menu li {
+		line-height: 42.5px;
+	}
+	.slicknav_nav {
+		top: 43px;
+	}
+	.m-search button {
+		float: left;
+	}
+}
