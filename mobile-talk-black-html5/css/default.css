@@ -897,6 +897,7 @@ footer .col3 {
 	list-style: none;
 	display: block;
 	width: 220px;
+	height: 100px;
 	margin: 0 0 10px;
 	padding: 0;
     overflow: hidden;
@@ -1011,7 +1012,7 @@ footer .col3 {
     text-align: right;
 }
 #copyright {
-    margin: 0 0 15px;
+    margin: 15px 0;
     width: 50%;
     float: left;
 }
@@ -1036,8 +1037,7 @@ footer .col3 {
 	font-size: 25px;
 	clear: both;
 	display: block;
-	background: url('../images/line.png') no-repeat center right;
-	background-size: 70% 3%;
+	background: none;
 	height: 42px;	
 }
 .product-item .status {
@@ -1567,6 +1567,7 @@ footer .col3 {
  
 .cbp-spmenu, .cbp-spmenu-push {
 	-webkit-transition: all 0.3s ease;
+
 	-moz-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
